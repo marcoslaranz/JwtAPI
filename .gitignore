@@ -1,0 +1,68 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet packages
+*.nupkg
+# Optional: if using package restore
+packages/
+
+## Visual Studio Code
+.vscode/
+
+## Rider
+.idea/
+
+## Project lock files
+project.lock.json
+project.fragment.lock.json
+
+## Dotnet CLI
+*.dotnet-dev*
+
+## Publish output
+publish/
+out/
+
+## Logs
+*.log
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+## VS backups
+*_i.c
+*_p.c
+*_h.h
+
+## Others
+# Uncomment if you're not committing test results
+# TestResults/
+# Coverage/
+
+## Environment files
+.env
+.env.*
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+## Optional extensions
+*.vspscc
+*.vssscc
+
+## Ignore secrets
+secrets.json

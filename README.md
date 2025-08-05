@@ -25,3 +25,10 @@ The database runs in a container:
 	  "DefaultConnection": "Host=192.168.56.17;Port=5432;Database=JwtAuth;Username=postgres;Password=postgres"
 ```
 
+
+### Added the functionality to encrypt the password. This is based
+on the NuGet package:
+
+	BCrypt.Net-Next
+	
+

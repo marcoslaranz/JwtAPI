@@ -5,12 +5,13 @@ public static class PasswordHashHandler
 {
 	public static bool VerifyPassword(string password, string hashpassword)
 	{
-		Console.WriteLine("Not yet implemented!");
-		return true;
+		return BCrypt.Net.BCrypt.Verify(password, hashpassword);
 	}
 	
 	public static string getHash(string password)
 	{
-		return password;
+		return BCrypt.Net.BCrypt.HashPassword(password);
 	}
+	
+	
 }
